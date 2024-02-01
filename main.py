@@ -18,17 +18,18 @@ def nanmean2d(array):
 ############################################
 parallelRead=True
 parallelCompute=True
-nbProcessRead=52
-nbProcessCompute=52
+nbProcessRead=12
+nbProcessCompute=12
 ############################################
 ############################################
 
 #### Lecture des fichiers GRIB2 ####
 pattern = "T.*.grib"
+dataDir='/tmp/data'
 list_grib=list()
-for entry in os.listdir('.'):
+for entry in os.listdir(dataDir):
   if fnmatch.fnmatch(entry, pattern):
-    list_grib.append(entry)
+    list_grib.append(dataDir+'/'+entry)
 list_grib.sort()
 
 data=None
