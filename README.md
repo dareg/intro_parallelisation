@@ -13,6 +13,9 @@ Pour rester sur une environnement facile à prendre en main, le TP est réalisé
 
 
 ## Environnement nécessaire
+Lancer le script install.sh du dépôt git pour installer l'environnement et télécharger les données.
+Ensuite il faut charger l'environnement virtuel python pour lancer le script main.py : source venv/bin/activate.
+
 - [ ] Python 3.x
 - [ ] EcCodes doit être installé
 - [ ] Librairies Python: Numpy, Xarray et cfgrib (à installer via un pip install cfgrib sur les PC de l'ENM)
