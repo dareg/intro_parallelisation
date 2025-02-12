@@ -11,7 +11,7 @@ Faire un script qui:
 Mesurer le temps pris par ce script
 
 Faites une copie du script et modifier tel que:
-- les conversion de png vers jpg soit faites en parallèle
-- le script ne quitte que lorsque toutes les conversions sont terminés
+- les conversions de png vers jpg soit faites en parallèle
+- le script ne quitte que lorsque toutes les conversions sont terminées
 
 Mesurer le temps pris et le comparer avec la solution séquentielle
